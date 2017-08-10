@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PokemonAPI Web Form</title>
+	<!--stylesheets-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+	<div class="page-header">
+	  <h1>Pokemon Form:	<small>	Building a Pokemon API</small></h1>
+	</div>
+
+	<div class="jumbotron">
+		<form class="container">
+			<div class="form-group">
+				<label for="pokemonName">Pokemon Name</label>
+				<input type="text" class="form-control" id="pokemonName" placeholder="Pokemon Name">
+			</div>
+			<div class="form-inline">
+				<label for="region">Region</label><br>
+				<div class="form-group">
+					<input type="radio" name="region" value="kanto"> Kanto <br>
+				</div>
+				<div class="form-group">
+					<input type="radio" name="region" value="johto"> Johto <br>
+				</div>
+				<div class="form-group">
+					<input type="radio" name="region" value="hoenn"> Hoenn <br>
+				</div>
+				<div class="form-group">
+					<input type="radio" name="region" value="sinnoh"> Sinnoh <br>
+				</div>
+				<div class="form-group">
+					<input type="radio" name="region" value="unova"> Unova <br>
+				</div>
+				<div class="form-group">
+					<input type="radio" name="region" value="kalos"> Kalos <br>
+				</div>
+				<div class="form-group">
+					<input type="radio" name="region" value="alola"> Alola
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="regionalDex">Regional Dex Number</label>
+				<input type="text" class="form-control" id="regionalDex" placeholder="Regional Dex">
+			</div>
+			<div class="form-group">
+				<label for="nationalDex">National Dex Number</label>
+				<input type="text" class="form-control" id="nationalDex" placeholder="National Dex">
+			</div>
+			<div class="dropup">
+				<button class="btn btn-default dropdown-toggle" type="button" id="type1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					Dropdown
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" aria-labelledby="type1">
+					<li><a href="#">Fire</a></li>
+					<li><a href="#">Water</a></li>
+					<li><a href="#">Grass</a></li>
+					<li><a href="#">Electric</a></li>
+					<li><a href="#">Bug</a></li>
+					<li><a href="#">Rock</a></li>
+					<li><a href="#">Ground</a></li>
+					<li><a href="#">Poison</a></li>
+					<li><a href="#">Flying</a></li>
+					<li><a href="#">Ice</a></li>
+					<li><a href="#">Fighting</a></li>
+					<li><a href="#">Psychic</a></li>
+					<li><a href="#">Ghost</a></li>
+					<li><a href="#">Normal</a></li>
+					<li><a href="#">Dragon</a></li>
+					<li><a href="#">Dark</a></li>
+					<li><a href="#">Steel</a></li>
+					<li><a href="#">Fairy</a></li>
+				</ul>
+			</div>
+		</form>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!--Bootstrap JavaScript-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
