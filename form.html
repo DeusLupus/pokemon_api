@@ -3,9 +3,16 @@
 <html>
 	<head>
 		<title>Add Pokemon</title>
+
+		<meta charset="utf-8" />
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 
 	<body>
+		<img src="images/802.png" alt="pokemon" id="pokemon" align="right">
 		<h1>Add Pokemon</h1>
 		<form>
 			<h3>Pokemon Name</h3>
@@ -51,21 +58,10 @@
 				<option>Dark</option>
 				<option>Fairy</option>
 			</select>
-			<p><h3 id="region">Region*</h3></p>
-				<p>Kanto <input type="radio" name="region">
-				Johto <input type="radio" name="region">
-				Hoenn <input type="radio" name="region">
-				Sinnoh <input type="radio" name="region">
-				Unova <input type="radio" name="region">
-				Kalos <input type="radio" name="region">
-				Alola <input type="radio" name="region">
-			</p>
-			<h3 id="rDex">Regional Pokedex Number</h3>
-			<p><input type="text"></p>
 			<h3 id="nDex">National Pokedex Number</h3>
 			<p><input type="text"></p>
 			<p><input type="submit"></p>
-			<p>*<sub>Region is determined by first region the Pokemon appeared in.</sub></p>
 		</form>
+
 	</body>
 </html>
