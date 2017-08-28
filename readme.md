@@ -5,5 +5,4 @@
 - Pokemon Name
 - Pokemon Image
 - Type
-- Regional Pokedex Number
 - National Pokedex Number

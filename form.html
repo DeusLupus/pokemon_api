@@ -16,9 +16,9 @@
 		<h1>Add Pokemon</h1>
 		<form>
 			<h3>Pokemon Name</h3>
-			<p><input type="text" id="pokemonName" placeholder="Pokemon Name"></p>
+			<p><input type="text" id="pokemonName" placeholder="Pokemon Name" required></p>
 			<h3>Type 1</h3>
-			<select>
+			<select id="type1" required>
 				<option>Fire</option>
 				<option>Water</option>
 				<option>Grass</option>
@@ -38,8 +38,8 @@
 				<option>Fairy</option>
 			</select>
 			<h3>Type 2</h3>
-			<select>
-				<option>---------</option>
+			<select id="type2">
+				<option>N/A</option>
 				<option>Fire</option>
 				<option>Water</option>
 				<option>Grass</option>
@@ -58,10 +58,15 @@
 				<option>Dark</option>
 				<option>Fairy</option>
 			</select>
-			<h3 id="nDex">National Pokedex Number</h3>
-			<p><input type="text"></p>
-			<p><input type="submit"></p>
+			<h3>National Pokedex Number</h3>
+			<p><input type="text" id="nDex"></p>
+			<p><input type="submit" id="addPokemonBtn" required></p>
 		</form>
 
 	</body>
+
+	<!--Firebase-->
+	<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+	<!--JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </html>
